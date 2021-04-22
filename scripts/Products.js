@@ -1,5 +1,6 @@
 import { getProducts } from "./database.js"
 
+
 const products = getProducts()
 
 export const Products = () => {
